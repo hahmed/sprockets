@@ -4,6 +4,7 @@ Get upgrade notes from Sprockets 3.x to 4.x at https://github.com/rails/sprocket
 
 ## Master
 
+- Move to GitHub actions.[#67x](https://github.com/hahmed/sprockets/pull/1)
 - Remove remaining support for Ruby < 2.4.[#672](https://github.com/rails/sprockets/pull/672)
 
 ## 4.0.2
