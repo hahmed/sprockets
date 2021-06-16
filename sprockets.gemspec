@@ -39,7 +39,7 @@ Gem::Specification.new do |s|
   end
   s.add_development_dependency "rubocop-performance", "~> 1.3"
 
-  s.required_ruby_version = '>= 2.5.0'
+  s.required_ruby_version = '>= 2.7.0'
 
   s.authors = ["Sam Stephenson", "Joshua Peek"]
   s.email = ["sstephenson@gmail.com", "josh@joshpeek.com"]
