@@ -1,4 +1,4 @@
-name: CI
+name: CI JRuby
 on: [push, pull_request]
 jobs:
   tests:
@@ -6,9 +6,8 @@ jobs:
     strategy:
       matrix:
         include:
-          - { os: ubuntu-latest, ruby: 2.7 }
-          - { os: ubuntu-latest, ruby: 3.0 }
-          - { os: ubuntu-latest, ruby: head, allow-failure: true }
+          - { os: ubuntu-latest, ruby: jruby, allow-failure: true }
+          - { os: ubuntu-latest, ruby: jruby-head, allow-failure: true }
     steps:
       - uses: actions/checkout@v2
       - name: Set up Ruby
